@@ -13,6 +13,7 @@
 > - access.bundle ——接入主要资源（Access_iOS.zip中的sdk目录中，必须引入）
 > - access_version.zip —— sdk热更资源（sdk包nobuildResource目录下）
 > - libdemo_hoolaipay.a —— 辅助测试库（sdk目录下，2.11之后的版本引入）
+> - security.data —— 证书文件（sdk提供）
 
 ### 模块资源说明
 
