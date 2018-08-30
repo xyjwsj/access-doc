@@ -15,6 +15,9 @@
 > - libdemo_hoolaipay.a —— 辅助测试库（sdk目录下，2.11之后的版本引入）
 > - security.data —— 证书文件（sdk提供）
 
+### web配置说明
+![](http://58.87.83.169:8181/uploads/201805/access/attach_1532ff656c96e9fa.jpg)
+
 ### 模块资源说明
 
 #### • 登录模块
