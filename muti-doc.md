@@ -11,8 +11,7 @@
 > - channel_config.json  ——配置文件（后台下载，必须引入；测试配置文件在oc资源demo中）[下载方法](http://access.hoolai.com/doc/2017/06/02/%E5%85%B6%E4%BB%96/#配置文件下载-channel-config-json)
 > - AccessSDK.framework ——接入主库（Access_iOS.zip中的sdk目录中，必须引入）
 > - access.bundle ——接入主要资源（Access_iOS.zip中的sdk目录中，必须引入）
-> - access_version.zip —— sdk热更资源（sdk包nobuildResource目录下）
-> - libdemo_hoolaipay.a —— 辅助测试库（sdk目录下，2.11之后的版本引入）
+> - demo_pay.a —— 辅助测试库（sdk目录下，2.11之后的版本引入）
 > - security.data —— 证书文件（sdk提供）
 
 ### web配置说明
@@ -21,42 +20,11 @@
 
 ### 模块资源说明
 
-#### • 登录模块
-
-- FaceBookCompoentHandler  facebook登录(海外版选接)
-
-> - 注:相关文件引用如下,要注意的是facebook登录需要在info.plist里做相关配置
-键: FacebookAppID   值: 在facebook管理台里配置的app对应的id值,如189010236223522
-键: FacebookDisplayName     值: 管理台app的displayname
-![](http://webcdn.hulai.com/group1/M00/00/44/CgIJKlqyCISAFMWmAAAz8QY9mxM158.jpg)
-
-
- - gamecenterimpl——Game Center渠道登录(接入时次目录下全部引入)
- >![](http://cdn.hoolaiimg.com/group1/M00/00/2B/CgIJKlibzPiAM3sDAAB-dOWr-BM065.png)
- 
- - qqchannelimpl ——QQ渠道登录（接入时此目录下全部引入）
- > - 注：需要在工程中配置URL Type， schemes为tencent+qq_appId,假设qq_appId为1234345
- 那么schemes为tencent1234345
-![](http://cdn.hoolaiimg.com/group1/M00/00/2B/CgIJKlibzUKAQNvKAACFLO6jSvE312.png)
-
- - wbchannelimpl ——微博渠道登录（接入时此目录下全部引入）
- >- 注：需要在工程中配置URL Type， schemes为wb+wb_appKey,假设wb_appKey为1234345,那么schemes为wb1234345
-![](http://cdn.hoolaiimg.com/group1/M00/00/2C/CgIJK1ibztKAO3nWAACGZrXvaEE724.png)
- 
- - wxchannelimpl ——微信渠道登录（接入时此目录下全部引入）
- > - 注：需要在工程中配置URL Type， schemes为wx_appId,假设wx_appId为1234345
-那么schemes为1234345
->- 需要在项目Info.plist中配置(如果没有)LSApplicationQueriesSchemes项，数据类型为Array，并且添加子项weixin和wechat（如果没有此子项）
- > - 需要在工程中配置URL Type， identifier为bundleId，schemes为bundleId+wx,假设bundleId为com.hoolai.game，那么identifier为com.hoolai.game，schemes为com.hoolai.game.wx
-![](http://cdn.hoolaiimg.com/group1/M00/00/2C/CgIJK1ibzwqAK8DeAACF-pYVa7A257.png)
-
 #### •支付模块
 
-   ºApp Store支付(libhoolai_appstore.a)
+   ºApp Store支付(libaccess_appstore.a)
 
 >-![](http://webcdn.hulai.com/group1/M00/00/44/CgIJKlqyCTOAZwUbAABtYDcjCew398.jpg)
-
->-access_hoolaipay目录下支付模块 上App Store不能引入以下模块(包括hoolai_alipay、hoolai_cardpay、hoolai_yjpay、hoolai_wxh5、hoolai_union)，否则导致审核不通过
 
 ## SDK接入环境搭建
 
