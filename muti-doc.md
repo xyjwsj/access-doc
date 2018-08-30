@@ -26,7 +26,7 @@
 
 >-![](https://raw.githubusercontent.com/xyjwsj/static-resource/master/appstore.jpg)
 
-## SDK接入环境搭建
+## Access SDK接入环境搭建
 
 ### 系统framework引入
 
@@ -49,7 +49,7 @@ libz.tbd
 libstdc++.6.tbd
 ```
 
-### 添加SDK库文件
+### 添加Access SDK库文件
 
 #### 引入通用资源到工程中
 
@@ -92,7 +92,7 @@ libstdc++.6.tbd
 • 在Info.plist中配置http网络访问的支持，配置App Transport Security Settings项，类型为Dictoionary，然后配置子项Allow Arbitrary Loads，类型为Boolean，值为Yes
  ![](http://cdn.hoolaiimg.com/group1/M00/00/2C/CgIJK1ib1O-AI--AAAA9MTKOcfI043.png)
 
-## Hoolai SDK基础功能
+## Access SDK基础功能
 
 在配置好接入环境，导入SDK库和配置文件后，您即可开始介入SDK各功能
 
