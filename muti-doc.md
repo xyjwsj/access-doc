@@ -440,7 +440,7 @@ callBackInfo中不要使用这些符号：“|”、“=”、“+”、“/”
 ```objective-c
 -（void）setUserExtData:(NSMutableDictionary*)userExtData;//调用：
 
-   [userData setObject:XXX forKey:ACTION];//进入游戏(必填)
+   [userData setObject:XXX forKey:ACTION_TYPE];//进入游戏(必填)
 
   XXX为：ACTION_ENTER_SERVER（进入游戏） / ACTION_LEVEL_UP（角色升级） / ACTION_CREATE_ROLE(创建角色)
 
@@ -473,10 +473,10 @@ callBackInfo中不要使用这些符号：“|”、“=”、“+”、“/”
 *注:服务器id,必传,如果有删档测试，请更换新的zone_id或者通知SDK和BI也进行删档，否则会引起数据统计不准确
 userExtData中的key需要使用UserExtDataKeys中定义的key*
 
-<font color=#DC143C>BI数据报送(选接)</font>
+<font color=#DC143C>BI数据报送(此版本不支持接入)</font>
 ```objective-c
 /**
-*  BI数据报送
+*  BI数据报送(不支持)
 *
 *  @param metric   报送指标类型，不能为空
 *  @param jsonData 报送指标json串，不能为空
