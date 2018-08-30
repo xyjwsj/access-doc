@@ -24,7 +24,7 @@
 
    ºApp Store支付(libaccess_appstore.a)
 
->-![](http://webcdn.hulai.com/group1/M00/00/44/CgIJKlqyCTOAZwUbAABtYDcjCew398.jpg)
+>-![](https://raw.githubusercontent.com/xyjwsj/static-resource/master/appstore.jpg)
 
 ## SDK接入环境搭建
 
@@ -49,7 +49,7 @@ libz.tbd
 libstdc++.6.tbd
 ```
 
-### 添加Hoolai SDK库文件
+### 添加SDK库文件
 
 #### 引入通用资源到工程中
 
