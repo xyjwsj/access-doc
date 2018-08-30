@@ -11,7 +11,7 @@
 > - channel_config.json  ——配置文件（后台下载，必须引入；测试配置文件在oc资源demo中）[下载方法](http://access.hoolai.com/doc/2017/06/02/%E5%85%B6%E4%BB%96/#配置文件下载-channel-config-json)
 > - AccessSDK.framework ——接入主库（Access_iOS.zip中，必须引入）
 > - access.bundle ——接入主要资源（Access_iOS.zip中，必须引入）
-> - demo_pay.a —— 辅助测试库（sdk目录下，2.11之后的版本引入）
+> - libdemo_pay.a —— 辅助测试库（sdk目录下，2.11之后的版本引入）
 > - security.data —— 证书文件(security目录下)（sdk提供）
 
 ### web配置说明
