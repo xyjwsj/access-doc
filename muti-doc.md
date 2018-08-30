@@ -16,7 +16,8 @@
 > - security.data —— 证书文件（sdk提供）
 
 ### web配置说明
-![](http://58.87.83.169:8181/uploads/201805/access/attach_1532ff656c96e9fa.jpg)
+- 需要配置sdk url,每个游戏都不同，由sdk提供
+![](https://raw.githubusercontent.com/xyjwsj/static-resource/master/setting-url.png)
 
 ### 模块资源说明
 
